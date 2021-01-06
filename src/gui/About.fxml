@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox prefHeight="336.0" prefWidth="385.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+<VBox prefHeight="336.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label nodeOrientation="LEFT_TO_RIGHT" prefHeight="43.0" prefWidth="120.0" text="About" textAlignment="JUSTIFY" textFill="#340fd6" wrapText="true">
+      <Label nodeOrientation="LEFT_TO_RIGHT" prefHeight="43.0" prefWidth="120.0" text="Sobre" textAlignment="JUSTIFY" textFill="#340fd6" wrapText="true">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
