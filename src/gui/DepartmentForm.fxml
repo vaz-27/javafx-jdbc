@@ -11,12 +11,12 @@
 
 <AnchorPane prefHeight="169.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentFormController">
    <children>
-      <GridPane prefHeight="90.0" prefWidth="445.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <GridPane prefHeight="90.0" prefWidth="506.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="61.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="225.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="139.0" minWidth="10.0" prefWidth="53.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="199.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.0" minWidth="10.0" prefWidth="179.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="5.0" prefWidth="10.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
@@ -26,7 +26,7 @@
          <children>
             <Label text="id" />
             <Label text="Nome" GridPane.rowIndex="1" />
-            <Label fx:id="labelErrorNome" textFill="#f40505" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="labelErrorNome" prefHeight="17.0" prefWidth="157.0" textFill="#f40505" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
                   <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#onButtonSaveAction" text="Save" />
