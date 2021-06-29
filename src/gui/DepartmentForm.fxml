@@ -27,14 +27,14 @@
             <Label text="id" />
             <Label text="Nome" GridPane.rowIndex="1" />
             <Label fx:id="labelErrorNome" prefHeight="17.0" prefWidth="157.0" textFill="#f40505" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
+            <TextField fx:id="txtNome" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
                   <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#onButtonSaveAction" text="Save" />
                   <Button fx:id="btCancelar" mnemonicParsing="false" onAction="#onButtonCancelAction" text="Cancel" />
                </children>
             </HBox>
-            <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
-            <TextField fx:id="txtNome" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>

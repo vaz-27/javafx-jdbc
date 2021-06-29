@@ -32,28 +32,28 @@
         </rowConstraints>
          <children>
             <Label text="id" />
-            <Label text="Nome" GridPane.rowIndex="1" />
-            <Label fx:id="labelErrorNome" prefHeight="17.0" prefWidth="157.0" textFill="#f40505" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
+            <TextField fx:id="txtNome" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <DatePicker fx:id="dpBirthDate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <children>
                   <ComboBox fx:id="comboBoxDepartment" prefWidth="150.0" />
                </children>
             </HBox>
-            <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
-            <TextField fx:id="txtNome" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Nome" GridPane.rowIndex="1" />
             <Label text="Email" GridPane.rowIndex="2" />
             <Label text="Aniversário" GridPane.rowIndex="3" />
             <Label text="Salário Base" GridPane.rowIndex="4" />
+            <Label fx:id="labelErrorNome" prefHeight="17.0" prefWidth="157.0" textFill="#f40505" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#onButtonSaveAction" text="Save" GridPane.rowIndex="6" />
             <Button fx:id="btCancelar" mnemonicParsing="false" onAction="#onButtonCancelAction" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
             </Button>
-            <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#onButtonSaveAction" text="Save" GridPane.rowIndex="6" />
             <Label text="Departamento" GridPane.rowIndex="5" />
-            <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <DatePicker fx:id="dpBirthDate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <Label fx:id="labelErrorEmail" textFill="#f50000" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <Label fx:id="labelErrorBirthDate" textFill="#fc0101" GridPane.columnIndex="2" GridPane.rowIndex="3" />
             <Label fx:id="labelErrorBaseSalary" textFill="#f20000" GridPane.columnIndex="2" GridPane.rowIndex="4" />
